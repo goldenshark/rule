@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,ofissaifreepc.akamaized.net
+DOMAIN-SUFFIX,litvpc-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,4gtvfree-cds.cdn.hinet.net
+DOMAIN-SUFFIX,4gtvfree-mozai.4gtv.tv
+DOMAIN-SUFFIX,4gtvfreepc-cds.cdn.hinet.net
+DOMAIN-SUFFIX,ntd-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,api2.4gtv.tv
+# > HamiVideo
+DOMAIN,hls-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,hamivideo.hinet.net
+DOMAIN-SUFFIX,ott.hinet.net
+DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
+DOMAIN-SUFFIX,cdn.hinet.net
