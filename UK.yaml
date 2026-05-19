@@ -1,3 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,hyperjar.com
   - DOMAIN-SUFFIX,hyperjardev.com
+  - DOMAIN-SUFFIX,zen.com
+  - DOMAIN-SUFFIX,zencom.zendesk.com
