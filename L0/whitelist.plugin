@@ -1,0 +1,10 @@
+#!name = po0 IP 白名单（本地）
+#!desc = 手动、换网时和每 10 分钟直连更新当前出口的白名单。
+
+[Argument]
+po0Url = input,"",tag=加白链接,desc=填入 po0 控制台给出的完整 HTTPS 加白链接
+
+[Script]
+generic script-path=po0-whitelist.js, argument=[{po0Url}], timeout=25, tag=po0 立即加白
+network-changed script-path=po0-whitelist.js, argument=[{po0Url}], timeout=25, tag=po0 换网加白
+cron "*/10 * * * *" script-path=po0-whitelist.js, argument=[{po0Url}], timeout=25, tag=po0 定时加白
